@@ -58,7 +58,7 @@
             // 
             this.RadioAddition.Location = new System.Drawing.Point(79, 100);
             this.RadioAddition.Name = "RadioAddition";
-            this.RadioAddition.Size = new System.Drawing.Size(104, 24);
+            this.RadioAddition.Size = new System.Drawing.Size(119, 24);
             this.RadioAddition.TabIndex = 2;
             this.RadioAddition.TabStop = true;
             this.RadioAddition.Text = "Addition";
@@ -69,7 +69,7 @@
             // 
             this.RadioSubtraction.Location = new System.Drawing.Point(79, 130);
             this.RadioSubtraction.Name = "RadioSubtraction";
-            this.RadioSubtraction.Size = new System.Drawing.Size(104, 24);
+            this.RadioSubtraction.Size = new System.Drawing.Size(119, 24);
             this.RadioSubtraction.TabIndex = 3;
             this.RadioSubtraction.TabStop = true;
             this.RadioSubtraction.Text = "Subtraction";
@@ -80,7 +80,7 @@
             // 
             this.RadioMultiplication.Location = new System.Drawing.Point(79, 160);
             this.RadioMultiplication.Name = "RadioMultiplication";
-            this.RadioMultiplication.Size = new System.Drawing.Size(104, 24);
+            this.RadioMultiplication.Size = new System.Drawing.Size(119, 24);
             this.RadioMultiplication.TabIndex = 4;
             this.RadioMultiplication.TabStop = true;
             this.RadioMultiplication.Text = "Multiplication";
@@ -91,7 +91,7 @@
             // 
             this.RadioDivision.Location = new System.Drawing.Point(79, 190);
             this.RadioDivision.Name = "RadioDivision";
-            this.RadioDivision.Size = new System.Drawing.Size(104, 24);
+            this.RadioDivision.Size = new System.Drawing.Size(119, 24);
             this.RadioDivision.TabIndex = 5;
             this.RadioDivision.TabStop = true;
             this.RadioDivision.Text = "Division";

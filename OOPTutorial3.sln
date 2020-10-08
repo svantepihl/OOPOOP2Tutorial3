@@ -1,7 +1,7 @@
 ﻿Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPTutorial3", "OOPTutorial3.1\OOPTutorial3.1.csproj", "{1FFCC51D-EDB4-4612-8784-B75E653D6D4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPTutorial3.2", "OOPTutorial3.2\OOPTutorial3.2.csproj", "{AD399CB8-4695-426F-96EE-153C7523E0DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPTutorial3.2-3", "OOPTutorial3.2-3\OOPTutorial3.2-3.csproj", "{AD399CB8-4695-426F-96EE-153C7523E0DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
