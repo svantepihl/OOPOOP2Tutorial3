@@ -38,6 +38,7 @@
             this.Calculate = new System.Windows.Forms.Button();
             this.ResultLabel = new System.Windows.Forms.Label();
             this.ResultValue = new System.Windows.Forms.Label();
+            this.ShowGoodbyeMsg = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // ValueOne
@@ -125,11 +126,23 @@
             this.ResultValue.TabIndex = 8;
             this.ResultValue.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // ShowGoodbyeMsg
+            // 
+            this.ShowGoodbyeMsg.Location = new System.Drawing.Point(79, 310);
+            this.ShowGoodbyeMsg.Checked = true;
+            this.ShowGoodbyeMsg.Name = "ShowGoodbyeMsg";
+            this.ShowGoodbyeMsg.Size = new System.Drawing.Size(146, 24);
+            this.ShowGoodbyeMsg.TabIndex = 9;
+            this.ShowGoodbyeMsg.Text = "Goodbye message";
+            this.ShowGoodbyeMsg.UseVisualStyleBackColor = true;
+            this.ShowGoodbyeMsg.CheckedChanged += new System.EventHandler(this.ShowGoodbyeMsg_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(268, 309);
+            this.ClientSize = new System.Drawing.Size(268, 355);
+            this.Controls.Add(this.ShowGoodbyeMsg);
             this.Controls.Add(this.ResultValue);
             this.Controls.Add(this.ResultLabel);
             this.Controls.Add(this.Calculate);
@@ -144,6 +157,8 @@
             this.ResumeLayout(false);
             this.PerformLayout();
         }
+
+        private System.Windows.Forms.CheckBox ShowGoodbyeMsg;
 
         private System.Windows.Forms.TextBox ValueOne;
         private System.Windows.Forms.TextBox ValueTwo;

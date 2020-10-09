@@ -9,6 +9,12 @@ namespace OOPTutorial3._2
         public Form1()
         {
             InitializeComponent();
+            FormClosing += OnFormClosing;
+        }
+
+        private void OnFormClosing(object sender, FormClosingEventArgs e)
+        {
+            MessageBox.Show("Bye!");
         }
         
         // Delegate for math operation
@@ -88,6 +94,18 @@ namespace OOPTutorial3._2
             // Calculation = Division;
             // or lamda
             Calculation = (a, b) => Decimal.Round(Decimal.Divide(a, b), 2);
+        }
+
+        private void ShowGoodbyeMsg_CheckedChanged(object sender, EventArgs e)
+        {
+            if (!ShowGoodbyeMsg.Checked)
+            {
+                FormClosing -= OnFormClosing;
+            }
+            else
+            {
+                FormClosing += OnFormClosing;
+            }
         }
     }
 }
