@@ -129,7 +129,6 @@
             // ShowGoodbyeMsg
             // 
             this.ShowGoodbyeMsg.Location = new System.Drawing.Point(79, 310);
-            this.ShowGoodbyeMsg.Checked = true;
             this.ShowGoodbyeMsg.Name = "ShowGoodbyeMsg";
             this.ShowGoodbyeMsg.Size = new System.Drawing.Size(146, 24);
             this.ShowGoodbyeMsg.TabIndex = 9;

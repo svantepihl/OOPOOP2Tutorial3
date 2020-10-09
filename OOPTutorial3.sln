@@ -3,6 +3,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPTutorial3", "OOPTutorial
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPTutorial3.2-4", "OOPTutorial3.2-4\OOPTutorial3.2-4.csproj", "{AD399CB8-4695-426F-96EE-153C7523E0DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2Tutorial3.6-7", "OOP2Tutorial3.6-7\OOP2Tutorial3.6-7.csproj", "{3449912C-857F-4909-8632-273F58919C69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOP2Tutorial3.5", "OOP2Tutorial3.5\OOP2Tutorial3.5.csproj", "{202B2DC0-1D6A-4B34-B6D2-F5EB5E18CB36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,5 +21,13 @@ Global
 		{AD399CB8-4695-426F-96EE-153C7523E0DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD399CB8-4695-426F-96EE-153C7523E0DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD399CB8-4695-426F-96EE-153C7523E0DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3449912C-857F-4909-8632-273F58919C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3449912C-857F-4909-8632-273F58919C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3449912C-857F-4909-8632-273F58919C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3449912C-857F-4909-8632-273F58919C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{202B2DC0-1D6A-4B34-B6D2-F5EB5E18CB36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{202B2DC0-1D6A-4B34-B6D2-F5EB5E18CB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{202B2DC0-1D6A-4B34-B6D2-F5EB5E18CB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{202B2DC0-1D6A-4B34-B6D2-F5EB5E18CB36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
